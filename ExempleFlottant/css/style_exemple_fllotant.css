@@ -1,0 +1,47 @@
+/* Feuille de style */
+
+/*
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+}
+
+section
+{
+	margin-left: 170px;
+    border: 1px solid blue;
+	/*clear: both;*/ /*se positionner au en dessous du fllotant*/
+/*}
+*/
+
+/*
+nav
+{
+    display: inline-block; // transformeation: se positionnent l'un a coté de l'autre (inline) et redimensionnable (block)
+    width: 150px;
+    border: 1px solid black;
+}
+
+section
+{
+    display: inline-block;    
+    border: 1px solid blue;
+}
+*/
+
+nav
+{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+section
+{
+    display: inline-block;    
+    border: 1px solid blue;
+    vertical-align: top;
+}

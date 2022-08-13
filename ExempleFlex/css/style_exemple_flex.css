@@ -1,0 +1,27 @@
+/* Feuille de style */
+
+#topsection {  
+  display:flex;  /* positionnement des block dans la section en têtre  (header et menu*/
+  flex-direction: row; /*column;*/
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  width: 40%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#section_articles {
+	display:flex;
+	flex-direction: row;
+
+}
+
+p, div, nav, h1, h2 {
+	border:1px dotted blue;
+}
